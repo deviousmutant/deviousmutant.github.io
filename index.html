@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <title>Siddharth Patil</title>
+  <style>
+
+nav {
+  margin-top: 3em;
+  background-color: transparent;
+  /* margin-left: -2em; */
+}
+.navbar-name-text {
+  /* color: #000; */
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  font-size: 1.5em;
+}
+.btn {
+    display: none;
+}
+.contact {
+    display: block;
+}
+@media(max-width: 500px) {
+    nav {
+        margin-top: 1em;
+    }
+    .navbar-name-text {
+        font-size: 1.5em;
+    }
+    .btn {
+        display: block;
+        font-size: 1.5em;
+        font-family: 'Lato';
+        font-weight: 600;
+    }
+    .contact {
+        display: none;
+    }
+}
+@media(max-width: 380px) {
+    nav {
+        margin-top: 1em;
+    }
+    .navbar-name-text {
+        font-size: 1.3em;
+        display: flex;
+        justify-content: center;
+    }
+    .btn {
+        display: block;
+    }
+    .contact {
+        display: none;
+    }
+}
+  </style>
+</head>
+
+<body>
+    <center>
+  <div id="root">
+    <div class="container">
+        <nav class="navbar">
+            <div class="float-left">
+                <a class="navbar-name-text" href="#" style="text-decoration: none; color: #000">Siddharth Patil</a>
+            </div>
+            <!-- <div class="float-right nav-text-box" id="">
+            <a class="navbar-name-text" style="text-decoration: 'none'; color: '#000'" href="#">Siddharth Patil</a>
+            </div> -->
+        </nav>
+    </div>
+      <div class="container mt-5">
+          <h1 style="font-family: 'Playfair Display'; font-size: 5em;">Woah! You are a little early.</h1>
+          <h4 style="font-family: 'Lato'; font-weight:300; font-size: 2em;"> I am still working on the portfolio right now. Come back here in a few days for a surprise!</h4>
+          <img src="construction.svg" style="width: 30em;" class="mt-5" alt="contruction"/>
+          <div class="mt-5 mb-5">
+              <a class="navbar-name-text contact" href="mailto:sid@siddharthpatil.me" >Get in touch</a>
+            <button class="btn btn-dark btn-lg btn-block">Get in touch</button>
+          </div>
+      </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</center>
+</body>
+
+</html>
